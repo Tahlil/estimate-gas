@@ -19,7 +19,7 @@ console.log(contract);
 async function main() {
     const amountInEther = "0.1";
     const amount = ethers.utils.parseEther(amountInEther);
-    const gasCost = await contract.estimateGas.transfer("0x922F709CE161b2B80fc626f65bAA52112752489A", amount, {from: signer.address, gasPrice: provider.getGasPrice()});    
+    const gasCost = await contract.estimateGas.transfer("0x922F709CE161b2B80fc626f65bAA52112752489A", amount, {from: signer.address});    
     console.log(gasCost);
     
 }
