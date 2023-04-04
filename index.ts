@@ -12,3 +12,8 @@ const provider = new ethers.JsonRpcProvider(rpcURL);
 const contractAddress = '0x2f3A40A3db8a7e3D09B0adfEfbCe4f6F81927557';
 const abi = myContractAbi;
 const contract = new ethers.Contract(contractAddress, abi, provider);
+
+async function main() {
+    const gasCost = await contract.estimateGas    
+}
+main();
