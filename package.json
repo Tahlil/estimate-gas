@@ -1,0 +1,18 @@
+{
+  "name": "estimategas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tahlil/estimate-gas.git"
+  },
+  "author": "Tahlil",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.2.3"
+  }
+}
