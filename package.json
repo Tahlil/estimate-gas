@@ -13,6 +13,7 @@
   "author": "Tahlil",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "ethers": "^6.2.3"
   }
 }
